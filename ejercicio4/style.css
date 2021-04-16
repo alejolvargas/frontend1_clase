@@ -1,0 +1,125 @@
+* {
+  box-sizing: content-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.descuento {
+  background: #1cd1b0;
+  margin: 0;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+header {
+  background: #00669f;
+  height: 75px;
+  position: sticky;
+  top: 10px;
+  z-index: 99999990;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+  padding: 18px 10px;
+  font-style: normal;
+  font-weight: normal;
+}
+main {
+  margin: 10px 340px;
+}
+.card {
+  background-color: #f3f3f3;
+  position: relative;
+  margin-bottom: 70px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card1 {
+  background-image: url(../ejercicio4/material_clase7/bg-batman.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  height: 406px;
+  width: 100%;
+}
+.card2 {
+  background-image: url(../ejercicio4/material_clase7/bg-wonderw.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 406px;
+  width: 100%;
+}
+.card3 {
+  background-image: url(../ejercicio4/material_clase7/bg-superman.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 406px;
+  width: 100%;
+}
+
+.perfil {
+  border-radius: 94px;
+  position: absolute;
+  top: 319px;
+  left: 36%;
+  width: 195px;
+}
+
+.info_perfil h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: 100px;
+  text-align: center;
+}
+.info_perfil p {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 5px 12px;
+}
+.info_perfil a {
+  background-color: #00669f;
+  color: white;
+  width: 158px;
+  height: 29px;
+  text-decoration: none;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 7px;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+}
+footer {
+  background: #00669f;
+  height: 70px;
+}
+footer p {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 22px;
+}
+/* <!-- esto es un -- >  */
+.fa-heart {
+  color: red;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.fa-plus-circle {
+  color: #00669f;
+  position: fixed;
+  right: 10%;
+  bottom: 30%;
+}
