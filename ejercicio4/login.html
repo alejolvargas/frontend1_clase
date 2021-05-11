@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registro</title>
+  <title>Login</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
@@ -32,22 +32,17 @@
   <main>
     <section>
       <div class="box_registro_login_contacto">
-        <h1>registro</h1>
+        <h1>login</h1>
         <form action="" method="POST">
-          <input type="text" id="nombre" name="nombre" placeholder="nombre apellido">
-          <input type="email" id="email" name="email" placeholder="email">
-          <input type="password" id="password" name="password" placeholder="passwod">
-          <select name="pais" id="pais" placeholder="pais">
-            <option value="Argentina">Argentina</option>
-            <option value="Brasil">Brasil</option>
-            <option value="Colombia">Colombia</option>
-          </select>
-          <input type="reset" class="accion_registro" placeholder="resetear">
-          <input type="submit" class="accion_registro accion_submit" placeholder="Enviar">
-          <p>ya tienes una cuenta<a href="./registro.html"> login</a></p>
+          <input type="text" id="nombre" name="nombre" placeholder="nombre">
+          <input type="password" id="password" name="password" placeholder="contraseña">
+          <input type="submit" id="enviar_login">
+          <p>¿no tienes cuenta registrate?<a href="./registro.html">Registrate</a></p>
+
         </form>
       </div>
     </section>
+
   </main>
   <footer>
     <p>Todos los derechos reservados a FRONT END 1</p>

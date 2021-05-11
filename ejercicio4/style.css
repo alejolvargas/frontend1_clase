@@ -1,8 +1,8 @@
 * {
-  box-sizing: content-box;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
+  box-sizing: border-box;
 }
 .descuento {
   background: #1cd1b0;
@@ -29,12 +29,15 @@ header h1 {
   font-weight: normal;
   font-size: 30px;
 }
+a {
+  text-decoration: none;
+}
 nav {
   background-color: #000000;
   color: #ffffff;
 }
 .menu {
-  margin: 0;
+  margin-top: 12px;
   text-align: right;
   margin-right: 10px;
 }
@@ -42,6 +45,12 @@ nav {
   display: inline-block;
   margin: 0px;
   text-align: right;
+}
+.menu li a {
+  color: #ffffff;
+}
+.menu li a:hover {
+  font-size: 18px;
 }
 /* dimensiones del main */
 main {
@@ -90,6 +99,9 @@ main {
   left: 23%;
   width: 150px;
 }
+.perfil:hover {
+  width: 160px;
+}
 
 .info_perfil h2 {
   font-family: "Roboto", sans-serif;
@@ -107,18 +119,22 @@ main {
 }
 .info_perfil a {
   background-color: #00669f;
-  color: white;
+  color: #ffffff;
   width: 148px;
   height: 20px;
   text-decoration: none;
   display: block;
   margin: 0px auto;
   text-align: center;
-  padding-top: 4px;
+  padding-top: 2px;
   border-radius: 7px;
   font-size: 13px;
   position: relative;
   bottom: 13px;
+}
+.info_perfil a:hover {
+  background-color: #dadada;
+  color: #00669f;
 }
 footer {
   background: #00669f;
@@ -145,4 +161,181 @@ footer p {
   right: 10%;
   bottom: 35%;
   font-size: 55px;
+}
+.fa-plus-circle:hover {
+  font-size: 60px;
+  color: #00659f78;
+}
+
+/* stilo para login contacto y registro */
+.box_registro_login_contacto {
+  width: 500px;
+  margin: 95px auto;
+}
+#nombre {
+  width: 100%;
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+}
+#email {
+  width: 100%;
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+}
+#password {
+  width: 100%;
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+}
+#pais {
+  width: 100%;
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+}
+#enviar_login {
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: #1cd1b0;
+  width: 100%;
+
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+.accion_registro {
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+  margin-top: 20px;
+  width: 248px;
+  margin-top: 20px;
+  background: #888888;
+  color: #ffffff;
+
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+#mensaje {
+  width: 100%;
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+}
+.accion_submit {
+  background-color: #1cd1b0;
+  color: #000000;
+}
+.box_registro_login_contacto h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 72px;
+  margin: 10px 0;
+}
+.box_registro_login_contacto p {
+  text-align: center;
+}
+
+/* añadir super heroe */
+.contenedor_heroe {
+  width: 954px;
+  height: 832px;
+  background-color: #00669f;
+  border-radius: 50px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.caja_heroe h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+}
+.caja_heroe p {
+  font-size: 22px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+}
+.form1 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.form2 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.vert {
+  display: block;
+}
+
+.caja_heroe {
+  padding: 1px 91px;
+}
+.caja_heroe h3 {
+  text-align: center;
+}
+
+form input,
+form select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 48px;
+  border-radius: 15.3407px;
+  font-style: normal;
+  font-weight: 300;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: 10px;
+  height: 10px;
+  border-radius: 15.3407px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+form textarea {
+  width: 100%;
+  border-radius: 15.3407px;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 48px;
+  border-radius: 15.3407px;
+  font-style: normal;
+  font-weight: 300;
+}
+.separador {
+  width: 100%;
+  height: 1px;
+  background-color: #cccccc;
+  margin: 19px 0;
+}
+.enviar_super {
+  width: 52%;
+  height: 68px;
+  background-color: #1cd1b0;
+  border: none;
+  margin: 10px auto;
+  display: block;
+  font-size: 36px;
 }
